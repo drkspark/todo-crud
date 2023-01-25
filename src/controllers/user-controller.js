@@ -8,7 +8,7 @@ const createU = async (req, res) => {
         return res.status(201).json({
             data: user,
             success: true,
-            message: "Successfully created a city",
+            message: "Successfully created a user",
             err: {},
         });
     } catch (error) {
@@ -28,7 +28,7 @@ const deleteU = async (req, res) => {
         return res.status(201).json({
             data: data,
             success: true,
-            message: "Successfully deleted a city",
+            message: "Successfully deleted a user",
             err: {},
         });
     } catch (error) {
